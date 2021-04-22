@@ -1,4 +1,4 @@
-# cw_details
+# cw_details - Create parametric Column detail wood construction
 
 Creating parametric details for columns in timber construction for the software cadwork 3D
 
