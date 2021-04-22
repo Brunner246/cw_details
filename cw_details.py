@@ -1,21 +1,9 @@
-import attribute_controller as ac, element_controller as ec, cadwork as c, \
-    geometry_controller as gc
+import utility_controller as uc
+userprofil = uc.get_3d_userprofil_path()
+file_path = userprofil + '\\api.x64\\cw_details'
+import sys
+sys.path.append(file_path)
+import cw_fpsa
 
+cw_fpsa.main()
 
-
-def main():
-
-
-    return
-
-
-# =================================================
-
-def xy():
-    """
-    """
-    pass
-
-
-if __name__ == '__main__':
-    main()
